@@ -34,7 +34,7 @@ jobs:
 
             const devBranch = 'main';
             const mainApprovals = parseInt('1', 10);
-            const releasePrefix = 'release/';
+            const releasePrefix = 'main';
             const releaseApprovals = parseInt('1', 10);
 
             async function upsertRuleset(name, branchPattern, approvals) {
