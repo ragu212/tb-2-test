@@ -10,7 +10,7 @@ on:
 # These act as fallbacks when sdlc.yaml is absent (trusted bootstrap repos).
 env:
   SDLC_DEV_BRANCH: "main"
-  SDLC_RELEASE_PREFIX: "release/"
+  SDLC_RELEASE_PREFIX: "main"
 
 permissions:
   contents: read
